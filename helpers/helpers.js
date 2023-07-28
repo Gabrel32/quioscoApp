@@ -19,6 +19,18 @@ export function formatearFecha(fecha){
     // recordar para poder tener la fecha le aplicamos como parametro de la funcion un Date.now()
 }
 
+export function formatearFechaYa(fecha){
+    const opciones = {
+        year:"numeric",
+        month:"long",
+        day:"2-digit"
+    }
+
+    return fecha.toLocaleDateString("es-ES", opciones)
+
+    // recordar para poder tener la fecha le aplicamos como parametro de la funcion un Date.now()
+}
+
 export function obtenerDiferenciaYear(year){
 
     parseInt(year)

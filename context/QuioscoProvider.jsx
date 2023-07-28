@@ -84,7 +84,6 @@ const QuioscoProvider = ({children}) =>{
         const productoActualizado = pedido.filter(e=>e.id === id)
 
         setProducto(productoActualizado[0])
-        console.log(id);
 
         handleClickModal()
     }
