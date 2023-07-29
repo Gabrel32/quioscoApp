@@ -1,7 +1,7 @@
 import React from 'react'
 import { formatearCantidad } from '../helpers/helpers'
 import Image from 'next/image'
-import useQuiosco from '../pages/hook/useQuiosco'
+import useQuiosco from '../hook/useQuiosco'
 
 function Pedido({e}) {
 

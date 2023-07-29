@@ -1,9 +1,9 @@
 import Image from "next/image"
 import { formatearCantidad } from "../helpers/helpers"
-import useQuisco from "../pages/hook/useQuiosco"
+import useQuiosco from "../hook/useQuiosco"
 
 function Producto({e}) {
-    const {setProducto, handleClickModal, modal } = useQuisco()
+    const {setProducto, handleClickModal, modal } = useQuiosco()
 
     const {nombre,id,imagen,precio} = e
   return (

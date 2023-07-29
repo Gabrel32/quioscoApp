@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import useQuiosco from '../pages/hook/useQuiosco'
+import useQuiosco from '../hook/useQuiosco'
 
 function Categoria({e}) {
   const {categoriaActual, handleClickCategoria} = useQuiosco()

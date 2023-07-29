@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
-import useQuiosco from './hook/useQuiosco'
+import useQuiosco from '../hook/useQuiosco'
 import Pedido from '../components/Pedido'
 
 function Resumen() {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import Layout from '../layout/Layout'
-import useQuiosco from './hook/useQuiosco';
+import useQuiosco from '../hook/useQuiosco';
 import { formatearCantidad } from '../helpers/helpers';
 
 
@@ -9,7 +9,7 @@ function Total() {
     const {pedido, nombre, setNombre, colocarOrden, total} = useQuiosco()
 
     function comprobarPedido(){
-        return pedido.length === 0 || nombre === "" || nombre.length < 3
+        return pedido?.length === 0 || nombre === "" || nombre?.length < 3
     }
 
     useEffect(()=>{
